@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SkyCast</title>
+  </head>
+  <body class="bg-slate-900 font-maven font-semibold">
+    <div
+      id="button-and-input"
+      class="mt-[200px] flex justify-center items-center"
+    >
+      <input
+        value=""
+        name="city"
+        type="text"
+        class="rounded-md border-none"
+        placeholder="Enter city name"
+      />
+      <button class="bg-[#fbfff1] rounded-md ml-5">Show weather</button>
+    </div>
+    <div class="flex justify-center items-center mt-8">
+      <div
+        id="main-div"
+        class="bg-weather-yellow text-302D5A w-[780px] h-[366px] rounded-[10px] flex-row justify-end pl-[50px] pr-[50px] pt-[14px] pb-[55px]"
+      >
+        <div id="upper-content" class="flex justify-between">
+          <div id="left-info">
+            <h1 id="city-name" class="text-[70px] mb-[-25px] mt-0">-------</h1>
+            <h2 id="atmosphere" class="text-[43.26px] mb-[-15.45px]">----</h2>
+            <h3 id="avg-temp" class="text-[43.26px]">--°C</h3>
+            <h5 id="feels-like" class="text-[16.52px]">feels like --°C</h5>
+          </div>
+          <div
+            id="right-info"
+            class="pt-[20px] flex flex-col items-end text-[16.25px]"
+          >
+            <img
+              id="weather-pic"
+              width="100"
+              height="100"
+              src="https://openweathermap.org/img/wn/10d@2x.png"
+              alt="no image :<"
+            />
+            <h3 id="cloud" class="text-end mt-[25px]">--% Cloudy</h3>
+            <h3 id="wind" class="text-end">--km/h Wind Speed</h3>
+          </div>
+        </div>
+        <div
+          id="lower-content"
+          class="bg-weather-violet text-weather-yellow flex justify-around items-center rounded-[9px] w-[672px] h-[68px] mt-[18px] pb-2"
+        >
+          <div>
+            <h3 id="high-low" class="text-[30px] mb-[-10px]">-°/-°</h3>
+            <h5 class="text-[14.5px]">high/low</h5>
+          </div>
+          <div class="flex items-center text-[38px]">
+            <h2 id="sunrise">-:--AM</h2>
+            <img
+              src="../assets/rise.png"
+              alt=":<"
+              width="80px"
+              class="p-[10px]"
+            />
+          </div>
+          <div class="flex items-center text-[38px]">
+            <h2 id="sunset">-:--PM</h2>
+            <img
+              src="../assets/set.png"
+              alt=":<"
+              width="80px"
+              class="p-[10px]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
