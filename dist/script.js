@@ -35,17 +35,18 @@ async function checkCity(cityName) {
     </div>
     <div class="mt-8 flex justify-center items-center">
       <div
+        style="padding-top: 40px"
         id="main-div"
-        class="bg-weather-yellow text-302D5A w-[780px] h-[366px] rounded-[10px] flex-row justify-end pl-[50px] pr-[50px] pt-[14px] pb-[55px]"
+        class="bg-weather-yellow text-302D5A w-[780px] h-[366px] rounded-[10px] flex-row justify-end pl-[50px] pr-[50px] pb-[55px]"
       >
         <div
-          class="bg-weather-violet text-weather-yellow text-center rounded-[10px] text-[38px] mt-[20px]"
+          class="bg-weather-violet text-weather-yellow flex justify-center rounded-[10px] text-[38px] mt-[20px]"
         >
           <h1>ERROR</h1>
         </div>
-        <div class="flex flex-col justify-center items-center mt-[38px]">
+        <div style="margin-top: 38px" class="flex flex-col justify-center items-center">
           <img src="../assets/error.png" alt=":<" />
-          <h1 class="text-[38px] mt-[22px]">Can't find location please refresh</h1>
+          <h1 style="margin-top: 22px"class="text-[38px]">Can't find location please refresh</h1>
         </div>
       </div>
     </div>`;
