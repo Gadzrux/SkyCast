@@ -10,5 +10,5 @@ SkyCast uses OpenWeather API to show weather information.
   const api = "YOUR API KEY GOES HERE"
   ```
 # Here is how the project looks like (kudos to [the designer](https://www.linkedin.com/in/rittika-mondal-21459827b/)
-img(https://i.imgur.com/c1TuNBa.png)
-img(https://i.imgur.com/E6sRTVy.png)
+(https://i.imgur.com/c1TuNBa.png)
+(https://i.imgur.com/E6sRTVy.png)
