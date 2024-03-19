@@ -1,5 +1,5 @@
 //USE YOUR API KEY
-const api = "d4a7cf6f5d9fc06c8f268a0ed3d4bd16";
+const api = "";
 
 let cityID = "1275004";
 const unit = "metric";
